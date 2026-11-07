@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=JetBrains+Mono:wght@500;700&display=block" rel="stylesheet">
+<style>
+  /* The site's cover, drawn once: ClaudeCodeMod's mod band (#ff5a1f, ink text), condensed Archivo,
+     and the shelf legend under it. ?v=light|dark|social picks the variant. */
+  :root {
+    --ink: #111111; --muted: #555555; --hair: #dedede; --c: #ff5a1f; --on: #111111;
+    --strip: #ffffff; --strip-ink: #111111; --strip-muted: #555555; --strip-hair: #dedede;
+  }
+  html.dark { --strip: transparent; --strip-ink: #e6edf3; --strip-muted: #9198a1; --strip-hair: #3d444d; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: transparent; }
+  body { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  #art { width: 880px; }
+  .band { background: var(--c); color: var(--on); padding: 22px 28px 26px; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; }
+  .brand { font-weight: 800; font-stretch: 75%; font-size: 22px; letter-spacing: -0.01em; text-transform: uppercase; }
+  .where { font: 500 13px "JetBrains Mono", ui-monospace, monospace; }
+  .grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 32px; align-items: end; margin-top: 34px; }
+  h1 { margin: 0; font-weight: 800; font-stretch: 75%; font-size: 110px; line-height: 0.84; white-space: nowrap; letter-spacing: -0.025em; text-transform: uppercase; }
+  h1 .kicker { display: block; font-size: 30px; line-height: 1; letter-spacing: 0; margin-bottom: 0.2em; }
+  .side p { font-size: 15.5px; font-weight: 500; line-height: 1.38; margin: 0 0 12px; text-wrap: balance; }
+  .box { border: 3px solid currentColor; padding: 10px 12px; }
+  .box span { display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 3px; }
+  .box b { font-weight: 500; font-size: 13.5px; line-height: 1.35; display: block; }
+  .legend { display: flex; padding: 0 14px; background: var(--strip); border-bottom: 3px solid var(--strip-ink); }
+  .legend > div { flex: 1 1 0; padding: 11px 14px 12px; border-right: 1px solid var(--strip-hair); color: var(--strip-ink); }
+  .legend > div:last-child { border-right: 0; }
+  .legend .l { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; }
+  .legend .dot { width: 12px; height: 12px; background: var(--c); flex: none; }
+  .legend .s { font-size: 12px; color: var(--strip-muted); margin-top: 3px; line-height: 1.3; }
+
+  /* Social preview: GitHub's 1280x640 card, shown when the repo link is shared. */
+  html.social #art { width: 1280px; height: 640px; display: flex; flex-direction: column; background: #ffffff; }
+  html.social .band { flex: 1; padding: 44px 56px 50px; display: flex; flex-direction: column; }
+  html.social .brand { font-size: 34px; }
+  html.social .where { font-size: 20px; }
+  html.social .grid { margin-top: auto; grid-template-columns: 1fr; }
+  html.social h1 { font-size: 262px; }
+  html.social h1 .kicker { font-size: 60px; }
+  html.social .side { display: none; }
+  html.social .legend { padding: 0 32px; }
+  html.social .legend > div { padding: 20px 24px 22px; }
+  html.social .legend .l { font-size: 24px; gap: 12px; }
+  html.social .legend .dot { width: 18px; height: 18px; }
+  html.social .legend .s { display: none; }
+</style>
+<script>
+  const v = new URLSearchParams(location.search).get("v") || "light";
+  document.documentElement.className = v;
+</script>
+</head>
+<body>
+<div id="art">
+  <div class="band">
+    <div class="top">
+      <div class="brand">ClaudeCodeMod</div>
+      <div class="where">claudecodemod.com/mods</div>
+    </div>
+    <div class="grid">
+      <h1><span class="kicker">Claude Code</span>Mods list</h1>
+      <div class="side">
+        <p>A mod is a Claude Code plugin that draws in the session or holds a command until you answer.</p>
+        <div class="box"><span>Every row</span><b>What the mod's README says it can reach. This list does not audit the source.</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="legend">
+    <div><div class="l"><i class="dot"></i>Usage</div><div class="s">Context and plan limits</div></div>
+    <div><div class="l"><i class="dot"></i>Safety</div><div class="s">Hold risky commands</div></div>
+    <div><div class="l"><i class="dot"></i>Review</div><div class="s">Edits, diffs, and diagrams</div></div>
+    <div><div class="l"><i class="dot"></i>Workflow</div><div class="s">Goals and subagents</div></div>
+    <div><div class="l"><i class="dot"></i>Play</div><div class="s">Games and pets</div></div>
+  </div>
+</div>
+</body>
+</html>
