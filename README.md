@@ -4,9 +4,9 @@
 
 # Claude Code mods list
 
-Every Claude Code mod on [ClaudeCodeMod](https://claudecodemod.com/mods): 824 mods from 486 authors, grouped by what they are for, with what each one's README says it can reach.
+Every Claude Code mod on [ClaudeCodeMod](https://claudecodemod.com/mods): 826 mods from 488 authors, grouped by what they are for, with what each one's README says it can reach.
 
-[![mods: 824](https://img.shields.io/badge/mods-824-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com/mods) [![authors: 486](https://img.shields.io/badge/authors-486-ff5a1f?style=flat-square&labelColor=111111)](#contents) [![counted: 2026-11-07](https://img.shields.io/badge/counted-2026--11--07-ff5a1f?style=flat-square&labelColor=111111)](#what-they-reach-in-figures) [![license: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-ff5a1f?style=flat-square&labelColor=111111)](#license) [![website: claudecodemod.com](https://img.shields.io/badge/website-claudecodemod.com-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com)
+[![mods: 826](https://img.shields.io/badge/mods-826-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com/mods) [![authors: 488](https://img.shields.io/badge/authors-488-ff5a1f?style=flat-square&labelColor=111111)](#contents) [![counted: 2026-11-07](https://img.shields.io/badge/counted-2026--11--07-ff5a1f?style=flat-square&labelColor=111111)](#what-they-reach-in-figures) [![license: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-ff5a1f?style=flat-square&labelColor=111111)](#license) [![website: claudecodemod.com](https://img.shields.io/badge/website-claudecodemod.com-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com)
 
 **[Usage](#usage)** · **[Safety](#safety)** · **[Review](#review)** · **[Workflow](#workflow)** · **[Play](#play)**
 
@@ -22,20 +22,20 @@ A mod runs with Claude Code's permissions. What it can reach is only what its RE
 
 ## What they reach, in figures
 
-Counted across the 824 mods on November 7, 2026. A mod is in every row its README names, so the rows add up to more than 824.
+Counted across the 826 mods on November 7, 2026. A mod is in every row its README names, so the rows add up to more than 826.
 
 | What the README names | Mods | Share |
 | --- | ---: | ---: |
-| Draws in the session | 781 | 95% |
+| Draws in the session | 783 | 95% |
 | Draws, and nothing else | 89 | 11% |
-| Reads usage or context figures | 244 | 30% |
-| Sees tool calls | 412 | 50% |
+| Reads usage or context figures | 245 | 30% |
+| Sees tool calls | 413 | 50% |
 | Reads this turn's file edits | 78 | 9% |
 | Holds a command | 150 | 18% |
-| Runs a command when you press | 153 | 19% |
-| Calls another program on this machine | 337 | 41% |
-| Reaches the network or an outside service | 240 | 29% |
-| Sends session text to an outside model by default | 34 | 4% |
+| Runs a command when you press | 154 | 19% |
+| Calls another program on this machine | 338 | 41% |
+| Reaches the network or an outside service | 241 | 29% |
+| Sends session text to an outside model by default | 35 | 4% |
 | Sends session text to an outside model if you choose one | 25 | 3% |
 
 ## Contents
@@ -44,8 +44,8 @@ Counted across the 824 mods on November 7, 2026. A mod is in every row its READM
 | --- | ---: | --- |
 | **[Usage](#usage)** | 176 | Context window and plan limits |
 | **[Safety](#safety)** | 66 | Hold risky commands before they run |
-| **[Review](#review)** | 133 | Edits, diffs, and diagrams |
-| **[Workflow](#workflow)** | 357 | Goals, next steps, and subagents |
+| **[Review](#review)** | 134 | Edits, diffs, and diagrams |
+| **[Workflow](#workflow)** | 358 | Goals, next steps, and subagents |
 | **[Play](#play)** | 92 | Games and pets while Claude works |
 
 ## Usage
@@ -310,7 +310,7 @@ Holds a risky command before it runs. [All 66 on claudecodemod.com](https://clau
 
 ## Review
 
-Draws this turn's edits, a running review, or the Markdown Claude changed. [All 133 on claudecodemod.com](https://claudecodemod.com/category/review).
+Draws this turn's edits, a running review, or the Markdown Claude changed. [All 134 on claudecodemod.com](https://claudecodemod.com/category/review).
 
 | Mod and author | What it does | What its README says it can reach |
 | --- | --- | --- |
@@ -366,7 +366,7 @@ Draws this turn's edits, a running review, or the Markdown Claude changed. [All 
 | **[glossary-browser](https://claudecodemod.com/mods/glossary-browser-chicio)**<br>by [chicio](https://github.com/chicio/chicio-labs/tree/main/claude-plugins/glossary-browser) | Refuses a Markdown edit that uses a glossary Avoid word, and draws that repo's terms in a band above the prompt. | Sees tool calls; Reads this turn's file edits; Holds a command |
 | **[glowup](https://claudecodemod.com/mods/glowup)**<br>by [NovusEdge](https://github.com/NovusEdge/glowup) | Draws a side pane of changed files with their diffs, subagents, and context use, restyles the transcript in the pack you pick, and adds a pixel pet. | Reads usage or context figures; Sees tool calls; Reads this turn's file edits; Calls another program on this machine; Reaches the network or an outside service |
 | **[grammar-fix](https://claudecodemod.com/mods/grammar-fix)**<br>by [kakha13](https://github.com/kakha13/claude/tree/main/mods/grammar-fix) | Fixes the grammar of an English prompt before Claude reads it, and shows each change under the message. | Draws, and nothing else |
-| **[hal-grammar-check](https://claudecodemod.com/mods/hal-grammar-check)**<br>by [vinta](https://github.com/vinta/hal-9000/tree/main/plugins/hal-grammar-check) | Draws grammar corrections above the prompt while you type, with explanations in Traditional Chinese. | Calls another program on this machine |
+| **[hal-grammar-check](https://claudecodemod.com/mods/hal-grammar-check)**<br>by [vinta](https://github.com/vinta/hal-9000/tree/main/plugins/hal-grammar-check) | Draws grammar corrections above the prompt while you type, with explanations in your language: English by default, or Chinese, Japanese, or Korean. | Calls another program on this machine |
 | **[hide-diffs](https://claudecodemod.com/mods/hide-diffs-gixxy22)**<br>by [gixxy22](https://github.com/gixxy22/hide-diffs) | Swaps a long diff for a one-line summary of the file and the lines changed, and folds each finished shell command to one line. | Sees tool calls; Reads this turn's file edits |
 | **[huh](https://claudecodemod.com/mods/huh)**<br>by [omeerdvrn](https://github.com/omeerdvrn/o-mods/tree/main/mods/huh) | Opens Claude's last answer in a sidebar when you type /huh, rewritten by Haiku for reading: a short summary up top, clear headings, every fact and command kept. | Calls another program on this machine |
 | **[image-peek](https://claudecodemod.com/mods/image-peek)**<br>by [arasovic](https://github.com/arasovic/claude-code-mods) | Draws thumbnails of images you paste, above the prompt while you write, and larger pictures under the message once it is sent. | Draws, and nothing else |
@@ -399,6 +399,7 @@ Draws this turn's edits, a running review, or the Markdown Claude changed. [All 
 | **[plain-english](https://claudecodemod.com/mods/plain-english)**<br>by [nordscope-fi](https://github.com/nordscope-fi/plain-english/tree/main/integrations/claude-code-plugin) | Refuses or asks before a Markdown write, commit message, or tracker issue that breaks its prose rules, quoting the passage, and holds a reply for a rewrite. | Sees tool calls; Reads this turn's file edits; Holds a command |
 | **[plain-reply](https://claudecodemod.com/mods/plain-reply)**<br>by [charlie947](https://github.com/charlie947/mod-maker/tree/main/plugins/plain-reply) | Grades each reply for length, long sentences, and jargon in a band above the prompt. Over your bar, Say it simpler puts a rewrite request in the prompt box. | Draws, and nothing else |
 | **[plannotator](https://claudecodemod.com/mods/plannotator)**<br>by [backnotprop](https://github.com/backnotprop/plannotator/tree/main/apps/hook) | Opens Claude's plan in a review UI where you mark it up, sends your annotations back, and shows what changed when the plan comes back. | Calls another program on this machine; Reaches the network or an outside service |
+| **[pr-review-board](https://claudecodemod.com/mods/pr-review-board)**<br>by [ekcm](https://github.com/ekcm/agent-toolkit/tree/main/mods/pr-review-board) | Reviews several pull requests at once with Claude and Codex in a live panel, runs each PR's tests, and shows what both agree on and what they still dispute. | Runs a command when you press; Calls another program on this machine; Reaches the network or an outside service; **By default, sends session text to OpenAI** |
 | **[prismantis](https://claudecodemod.com/mods/prismantis)**<br>by [NahumLitvin](https://github.com/NahumLitvin/prismantis) | Redraws Claude's replies in the terminal: colored tables, code, charts, flowcharts, and one quiet line per tool call. | Sees tool calls; Runs a command when you press; Calls another program on this machine |
 | **[prompt-coach](https://claudecodemod.com/mods/prompt-coach)**<br>by [mishgoldenberg](https://github.com/mishgoldenberg/claude-mods/tree/main/plugins/prompt-coach) | Before a vague prompt is sent, has a small model suggest a sharper one in a question dialog, and you pick Send improved, Send mine, or Edit. | Draws, and nothing else |
 | **[prompt-polish](https://claudecodemod.com/mods/prompt-polish)**<br>by [VedantAndhale](https://github.com/VedantAndhale/claude-pro-kit/tree/main/plugins/prompt-polish) | Rewrites the draft in the prompt box when you press Improve, with one model call, and does not send the rewrite. | Draws, and nothing else |
@@ -452,7 +453,7 @@ Draws this turn's edits, a running review, or the Markdown Claude changed. [All 
 
 ## Workflow
 
-Draws the goal, the next step, the subagents, or a menu you can press. [All 357 on claudecodemod.com](https://claudecodemod.com/category/workflow).
+Draws the goal, the next step, the subagents, or a menu you can press. [All 358 on claudecodemod.com](https://claudecodemod.com/category/workflow).
 
 | Mod and author | What it does | What its README says it can reach |
 | --- | --- | --- |
@@ -463,6 +464,7 @@ Draws the goal, the next step, the subagents, or a menu you can press. [All 357 
 | **[agent-crew](https://claudecodemod.com/mods/agent-crew)**<br>by [bekir1184](https://github.com/bekir1184/agent-crew) | Draws your subagents above the prompt as a pixel-art crew, with the current work, progress, time left, and tokens. | Reads usage or context figures; Sees tool calls |
 | **[agent-discover](https://claudecodemod.com/mods/agent-discover)**<br>by [keshrath](https://github.com/keshrath/agent-discover/tree/main/plugin) | Opens a pane to search, approve, and enable MCP servers through agent-discover, a local daemon any MCP host can share. | Sees tool calls; Runs a command when you press; Calls another program on this machine; Reaches the network or an outside service; Sends session text to OpenAI, only if you set it up |
 | **[agent-flow](https://claudecodemod.com/mods/agent-flow-luucas42)**<br>by [luucas42](https://github.com/luucas42/agent-flow) | Draws the main model, an advisor, and every subagent as cards joined by arrows in a side pane, plus every Claude Code session on this machine. | Reads usage or context figures; Sees tool calls; Calls another program on this machine |
+| **[agent-flow](https://claudecodemod.com/mods/agent-flow-charlie0113-t)**<br>by [Charlie0113-T](https://github.com/Charlie0113-T/claude-agent-flow) | Draws a live tree of the session's subagents and teammates beside the transcript: status, the tool call in flight or a wait for approval, time, and tokens. | Reads usage or context figures; Sees tool calls |
 | **[agent-knowledge](https://claudecodemod.com/mods/agent-knowledge)**<br>by [keshrath](https://github.com/keshrath/agent-knowledge/tree/main/plugin) | Opens a /knowledge pane beside the chat to browse and search agent-knowledge, a git-synced memory vault that also searches past sessions of seven coding tools. | Reaches the network or an outside service; Sends session text to OpenAI, Voyage AI or Gemini, only if you set one up |
 | **[agent-monitor](https://claudecodemod.com/mods/agent-monitor-garvitnangru)**<br>by [GarvitNangru](https://github.com/GarvitNangru/claude-code-mods/tree/main/mods/agent-monitor) | Draws a progress bar above the prompt as each plan step finishes, and a panel of the plan and every subagent's model, context, and cost. | Reads usage or context figures; Sees tool calls |
 | **[agent-panel](https://claudecodemod.com/mods/agent-panel)**<br>by [koomai](https://github.com/koomai/claude-kit/tree/main/plugins/agent-panel) | Sends one question to a panel of Claude subagents at the models and efforts you pick, shows each seat live in a /panel-view pane, and writes a verdict page. | Reads usage or context figures; Sees tool calls; Calls another program on this machine |
@@ -929,6 +931,6 @@ The text of this list is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0
 
 <div align="center">
 
-**[claudecodemod.com](https://claudecodemod.com)** · [All 824 mods](https://claudecodemod.com/mods) · [Submit a mod](https://claudecodemod.com/submit) · [Back to top](#claude-code-mods-list)
+**[claudecodemod.com](https://claudecodemod.com)** · [All 826 mods](https://claudecodemod.com/mods) · [Submit a mod](https://claudecodemod.com/submit) · [Back to top](#claude-code-mods-list)
 
 </div>
