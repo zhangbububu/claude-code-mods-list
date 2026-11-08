@@ -4,9 +4,9 @@
 
 # Claude Code mods list
 
-Every Claude Code mod on [ClaudeCodeMod](https://claudecodemod.com/mods): 899 mods from 529 authors, grouped by what they are for, with what each one's README says it can reach.
+Every Claude Code mod on [ClaudeCodeMod](https://claudecodemod.com/mods): 898 mods from 528 authors, grouped by what they are for, with what each one's README says it can reach.
 
-[![mods: 899](https://img.shields.io/badge/mods-899-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com/mods) [![authors: 529](https://img.shields.io/badge/authors-529-ff5a1f?style=flat-square&labelColor=111111)](#contents) [![counted: 2026-11-08](https://img.shields.io/badge/counted-2026--11--08-ff5a1f?style=flat-square&labelColor=111111)](#what-they-reach-in-figures) [![license: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-ff5a1f?style=flat-square&labelColor=111111)](#license) [![website: claudecodemod.com](https://img.shields.io/badge/website-claudecodemod.com-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com)
+[![mods: 898](https://img.shields.io/badge/mods-898-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com/mods) [![authors: 528](https://img.shields.io/badge/authors-528-ff5a1f?style=flat-square&labelColor=111111)](#contents) [![counted: 2026-11-08](https://img.shields.io/badge/counted-2026--11--08-ff5a1f?style=flat-square&labelColor=111111)](#what-they-reach-in-figures) [![license: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-ff5a1f?style=flat-square&labelColor=111111)](#license) [![website: claudecodemod.com](https://img.shields.io/badge/website-claudecodemod.com-ff5a1f?style=flat-square&labelColor=111111)](https://claudecodemod.com)
 
 **[Usage](#usage)** · **[Safety](#safety)** · **[Review](#review)** · **[Workflow](#workflow)** · **[Play](#play)**
 
@@ -22,18 +22,18 @@ A mod runs with Claude Code's permissions. What it can reach is only what its RE
 
 ## What they reach, in figures
 
-Counted across the 899 mods on November 8, 2026. A mod is in every row its README names, so the rows add up to more than 899.
+Counted across the 898 mods on November 8, 2026. A mod is in every row its README names, so the rows add up to more than 898.
 
 | What the README names | Mods | Share |
 | --- | ---: | ---: |
-| Draws in the session | 852 | 95% |
+| Draws in the session | 851 | 95% |
 | Draws, and nothing else | 103 | 11% |
 | Reads usage or context figures | 261 | 29% |
 | Sees tool calls | 446 | 50% |
 | Reads this turn's file edits | 87 | 10% |
 | Holds a command | 169 | 19% |
 | Runs a command when you press | 170 | 19% |
-| Calls another program on this machine | 367 | 41% |
+| Calls another program on this machine | 366 | 41% |
 | Reaches the network or an outside service | 253 | 28% |
 | Sends session text to an outside model by default | 35 | 4% |
 | Sends session text to an outside model if you choose one | 28 | 3% |
@@ -45,7 +45,7 @@ Counted across the 899 mods on November 8, 2026. A mod is in every row its READM
 | **[Usage](#usage)** | 184 | Context window and plan limits |
 | **[Safety](#safety)** | 73 | Hold risky commands before they run |
 | **[Review](#review)** | 145 | Edits, diffs, and diagrams |
-| **[Workflow](#workflow)** | 401 | Goals, next steps, and subagents |
+| **[Workflow](#workflow)** | 400 | Goals, next steps, and subagents |
 | **[Play](#play)** | 96 | Games and pets while Claude works |
 
 ## Usage
@@ -479,7 +479,7 @@ Draws this turn's edits, a running review, or the Markdown Claude changed. [All 
 
 ## Workflow
 
-Draws the goal, the next step, the subagents, or a menu you can press. [All 401 on claudecodemod.com](https://claudecodemod.com/category/workflow).
+Draws the goal, the next step, the subagents, or a menu you can press. [All 400 on claudecodemod.com](https://claudecodemod.com/category/workflow).
 
 | Mod and author | What it does | What its README says it can reach |
 | --- | --- | --- |
@@ -870,7 +870,6 @@ Draws the goal, the next step, the subagents, or a menu you can press. [All 401 
 | **[where-am-i](https://claudecodemod.com/mods/where-am-i)**<br>by [hamzafer](https://github.com/hamzafer/claude-code-mods) | Draws four things above the prompt: the goal, what is happening now, what is waiting on you, and the next step. | Draws, and nothing else |
 | **[where-were-we](https://claudecodemod.com/mods/where-were-we)**<br>by [scarrillo](https://github.com/scarrillo/agent-plugins/tree/main/where-were-we) | Timestamps every prompt in the transcript, lists your recent prompts with their times, and recaps the previous session with its resume command. | Draws, and nothing else |
 | **[widgets](https://claudecodemod.com/mods/widgets)**<br>by [oMaN-Rod](https://github.com/oMaN-Rod/claude-code-widgets/tree/main/plugins/widgets) | Places Claude Code Widgets' cards below the prompt, above it, or docked beside the transcript in fullscreen. Every widget in the set needs it. | Draws, and nothing else |
-| **[wildcrane](https://claudecodemod.com/mods/wildcrane)**<br>by [ai4kanban](https://github.com/ai4kanban/ai4kanban/tree/main/plugins/claude-code) | Opens a WildCrane panel beside the chat where you shape ideas with Claude in this session and start them as WildCrane tasks that run on this computer. | Calls another program on this machine |
 | **[wirepane](https://claudecodemod.com/mods/wirepane)**<br>by [legostin](https://github.com/legostin/wirepane) | Runs an HTTPS debugging proxy on your Mac and shows the browser's, simulator's, or phone's requests in a pane beside the chat, and Claude reads them too. | Runs a command when you press; Calls another program on this machine; Reaches the network or an outside service |
 | **[wolfbud](https://claudecodemod.com/mods/wolfbud)**<br>by [leopiney](https://github.com/leopiney/wolfbud-claude-mod/tree/main/mods/wolfbud) | WolfBud, a voice coworker you call beside the session, hears what Claude does and sends a prompt you agree on. Your voice and that activity go to ElevenLabs. | Sees tool calls; Calls another program on this machine; Reaches the network or an outside service; **By default, sends session text to ElevenLabs** |
 | **[workface](https://claudecodemod.com/mods/workface)**<br>by [scodge-24](https://github.com/scodge-24/workface) | Draws the agent's notes in a panel and hands that file back verbatim after every compaction, auto or manual. | Sees tool calls; Calls another program on this machine |
@@ -1004,6 +1003,6 @@ The text of this list is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0
 
 <div align="center">
 
-**[claudecodemod.com](https://claudecodemod.com)** · [All 899 mods](https://claudecodemod.com/mods) · [Submit a mod](https://claudecodemod.com/submit) · [Back to top](#claude-code-mods-list)
+**[claudecodemod.com](https://claudecodemod.com)** · [All 898 mods](https://claudecodemod.com/mods) · [Submit a mod](https://claudecodemod.com/submit) · [Back to top](#claude-code-mods-list)
 
 </div>
